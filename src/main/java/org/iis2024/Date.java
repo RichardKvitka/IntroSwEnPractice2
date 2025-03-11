@@ -23,6 +23,13 @@ public class Date {
   private final int month;
   private final int year;
 
+  //Constructor added by owner
+  public Date(int dia, int mes, int ano){
+    this.day = dia;
+    this.month = mes;
+    this year = ano;
+  }
+  
   /**
    * Retrieves the day component of this date.
    *
